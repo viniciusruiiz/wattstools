@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WattsTools.Domain", "Domain\WattsTools.Domain.csproj", "{FD02FB9C-C0AE-46BF-9138-1735E469FEA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Application", "01 - Application", "{F29DDA6B-3199-4251-B21B-39B934CAFB30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Services", "02 - Services", "{F2DA2FC2-7B49-4FA0-A3B2-6B6FF172F564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{CE1DEC77-35FE-4F33-BE50-0C34B8B544C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infra", "04 - Infra", "{1FDE8B3F-536E-46C5-BD76-DF5F4862DFA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WattsTools.Data", "WattsTools.Data\WattsTools.Data.csproj", "{0A170ED8-36A4-4216-800B-3F58FFFC6F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WattsTools.Services", "WattsTools.Services\WattsTools.Services.csproj", "{B8C6142C-10ED-46D5-BF52-E25E87347DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WattsTools.Application", "WattsTools.Application\WattsTools.Application.csproj", "{887C54DB-5062-49FE-B0F7-5C1C65646E21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD02FB9C-C0AE-46BF-9138-1735E469FEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD02FB9C-C0AE-46BF-9138-1735E469FEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD02FB9C-C0AE-46BF-9138-1735E469FEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD02FB9C-C0AE-46BF-9138-1735E469FEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A170ED8-36A4-4216-800B-3F58FFFC6F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A170ED8-36A4-4216-800B-3F58FFFC6F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A170ED8-36A4-4216-800B-3F58FFFC6F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A170ED8-36A4-4216-800B-3F58FFFC6F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C6142C-10ED-46D5-BF52-E25E87347DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C6142C-10ED-46D5-BF52-E25E87347DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C6142C-10ED-46D5-BF52-E25E87347DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C6142C-10ED-46D5-BF52-E25E87347DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887C54DB-5062-49FE-B0F7-5C1C65646E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887C54DB-5062-49FE-B0F7-5C1C65646E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887C54DB-5062-49FE-B0F7-5C1C65646E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887C54DB-5062-49FE-B0F7-5C1C65646E21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD02FB9C-C0AE-46BF-9138-1735E469FEA2} = {CE1DEC77-35FE-4F33-BE50-0C34B8B544C4}
+		{0A170ED8-36A4-4216-800B-3F58FFFC6F07} = {1FDE8B3F-536E-46C5-BD76-DF5F4862DFA9}
+		{B8C6142C-10ED-46D5-BF52-E25E87347DBB} = {F2DA2FC2-7B49-4FA0-A3B2-6B6FF172F564}
+		{887C54DB-5062-49FE-B0F7-5C1C65646E21} = {F29DDA6B-3199-4251-B21B-39B934CAFB30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {906EF4D8-9070-4173-A85A-516BED1590D0}
+	EndGlobalSection
+EndGlobal
